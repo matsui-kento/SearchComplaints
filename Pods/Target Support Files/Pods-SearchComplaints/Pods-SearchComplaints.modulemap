@@ -1,0 +1,6 @@
+framework module Pods_SearchComplaints {
+  umbrella header "Pods-SearchComplaints-umbrella.h"
+
+  export *
+  module * { export * }
+}
