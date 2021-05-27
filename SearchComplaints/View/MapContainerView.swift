@@ -14,9 +14,6 @@ struct MapContainerView: View {
     var body: some View {
         MapView(complaints: $viewModel.complaints, showDetailComplaint: $showDetailComplaint)
             .edgesIgnoringSafeArea(.all)
-            .sheet(isPresented: $showDetailComplaint, content: {
-                DetailComplaintsView()
-            })
     }
 }
 
